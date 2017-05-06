@@ -12,4 +12,4 @@ class Member(models.Model):
   date_of_birth = models.DateField()
   join_date = models.DateTimeField(auto_now_add=True)
   paid = models.BooleanField(default=False)
-
+  team = models.CharField(max_length=30)
