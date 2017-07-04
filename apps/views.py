@@ -6,4 +6,6 @@ from django.http import HttpResponse
 
 def register(request):
     return render(request, "form/register.html")
-# Create your views here.
+
+def home(request):
+    return render(request, "index.html")
