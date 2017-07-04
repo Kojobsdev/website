@@ -1,6 +1,7 @@
 appdirs==1.4.3
 Django==1.11.1
 django-bootstrap3==8.2.3
+django-crispy-forms==1.6.1
 django-filter==1.0.4
 django-fontawesome==0.3.1
 djangorestframework==3.6.3
