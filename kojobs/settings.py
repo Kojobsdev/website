@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     "crispy_forms",
     'bootstrap3',
     'fontawesome',
+    'jquery',
 ]
 
 MIDDLEWARE = [
@@ -135,6 +136,13 @@ SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 ALLOWED_HOSTS = ['*']
 
 DEBUG = False
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+DEFAULT_FROM_EMAIL = 'DEFAULT_FROM@gmail.com'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
+EMAIL_USE_TLS = False
+EMAIL_PORT = 1025
 
 try:
     from .local_settings import *

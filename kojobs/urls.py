@@ -20,5 +20,7 @@ from apps import views
 urlpatterns = [
     url(r'^register$', views.register, name='register'),
     url(r'^admin/', admin.site.urls),
+    url(r'^contact$', views.contact, name='contact'),
+    url(r'^contact_success$', views.contact_success, name='contact_success'),
     url(r'^', views.home, name='home'),
 ]
