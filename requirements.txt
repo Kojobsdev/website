@@ -21,7 +21,7 @@ py-mysql2pgsql==0.1.5
 pyparsing==2.2.0
 python-dateutil==1.5
 pytz==2017.2
-PyYAML==3.12
+PyYAML==5.4
 requests==2.18.1
 six==1.10.0
 termcolor==1.1.0
@@ -51,7 +51,7 @@ py-mysql2pgsql==0.1.5
 pyparsing==2.2.0
 python-dateutil==1.5
 pytz==2017.2
-PyYAML==3.12
+PyYAML==5.4
 requests==2.18.1
 six==1.10.0
 termcolor==1.1.0
